@@ -10654,7 +10654,7 @@ local CmdStart = '*\n᥀︙أهلآ بك في بوت '..(Redis:get(TheKOIA.."KOI
 '\n᥀︙اضف البوت الى مجموعتك'..
 '\n᥀︙ارفعه ادمن ‹ مشرف ›'..
 '\n᥀︙ارسل كلمة ‹ تفعيل › ليتم تفعيل المجموعه'..
-'\n᥀︙مطور البوت ↫ '..UserSudo..' *'
+'\n᥀︙مطور البوت ↫ @'..UserSudo..' *'
 local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
