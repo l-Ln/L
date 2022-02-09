@@ -10658,10 +10658,10 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ المطور .', url = "t.me/"..(UserSudo or "E5EEEF")}, 
+{text = '᥀ المطور .', url = 't.me/'..UserSudo..''}, 
 },
 {
-{text = '᥀ السورس .', url = 't.me/E5EEEF'},{text = '᥀ لتنصيب بوت .', url = 't.me/EUEEEE'}, 
+{text = '᥀ قناة السورس .', url = 't.me/E5EEEF'},{text = '᥀ لتنصيب بوت .', url = 't.me/EUEEEE'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -10674,10 +10674,10 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ المطور .', url = "t.me/"..(UserSudo or "E5EEEF")}, 
+{text = '᥀ المطور .', url = 't.me/'..UserSudo..''}, 
 },
 {
-{text = '᥀ السورس .', url = 't.me/E5EEEF'},{text = '᥀ لتنصيب بوت .', url = 't.me/EUEEEE'}, 
+{text = '᥀ قناة السورس .', url = 't.me/E5EEEF'},{text = '᥀ لتنصيب بوت .', url = 't.me/EUEEEE'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
