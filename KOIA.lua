@@ -6535,22 +6535,11 @@ keyboardd.inline_keyboard = {
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/PhotosDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == "مسلسل" then
-Abs = math.random(2,140); 
-local Text ='*᥀︙تم اختيار المسلسل لك*'
-keyboardd = {  } 
-keyboardd.inline_keyboard = { 
-{ 
-{ text = '᥀ Source Dove .', url = "https://t.me/E5EEEF" }
- },
- }
-local msg_id = msg.id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/SeriesDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
+
 if text == 'رابط الحذف' or text == 'ححذف' or text == 'اريد بوت الحذف' or text == 'بوت الحذف' then
 
 local T =[[
-᥀︙رابط الحذف في جميع مواقع التواصل .
+᥀︙رابط الحذف في جميع مواقع التواصل
 ]]
 keyboard = {  } 
 keyboard.inline_keyboard = { 
@@ -6579,7 +6568,7 @@ local T =[[
 keyboard = {  } 
 keyboard.inline_keyboard = { 
 { 
-{ text = '᥀ مبرمج السورس', url = 't.me/eueeee' }
+{ text = '᥀ مبرمج السورس .', url = 't.me/eueeee' }
  },
  }
 local msgg = msg_id/2097152/0.5
