@@ -9630,12 +9630,12 @@ data = {
  },
  }
  }
-return LuaTele.sendText(msg_chat_id,msg_id,'*᥀︙رابط الحذف في جميع مواقع التواصل*',"md",false, false, false, false, reply_markup)
+return LuaTele.sendText(msg_chat_id,msg_id,'*᥀︙رابط الحذف في جميع مواقع التواصل الاجتماعي*',"md",false, false, false, false, reply_markup)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
-photo = "https://t.me/DovePhotoo/2"
+photo = "https://t.me/DovePhotoo/5"
 local T =[[
-Welcome To Source\n᥀︙[Source Dove](https://t.me/E5EEEF) .
+Welcome To Source [Source Dove](https://t.me/E5EEEF) .
 ]]
 keyboard = {  } 
 keyboard.inline_keyboard = { 
