@@ -9636,7 +9636,6 @@ keyboard.inline_keyboard = {
  }
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. '&photo=https://t.me/R3J3BOT&caption='.. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-return false
 end
 
 if text == 'المبرمج' or text == 'مبرمج السورس' or text == 'مبرمج' or text == 'مطور السورس' then
@@ -9652,7 +9651,6 @@ keyboard.inline_keyboard = {
  }
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. '&photo=https://t.me/eueeee&caption='.. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-return false
 end
 
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
