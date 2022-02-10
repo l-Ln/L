@@ -716,12 +716,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return { 
-Lock     = '᥀ [Source Dove](https://t.me/E5EEEF) .\n*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصية المسح *',
-unLock   = '᥀ [Source Dove](https://t.me/E5EEEF) .\n*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n᥀︙بواسطة ↫ *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '᥀ [Source Dove](https://t.me/E5EEEF) .\n*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصية الكتم *',
-lockKid  = '᥀ [Source Dove](https://t.me/E5EEEF) .\n*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصية التقييد *',
-lockKick = '᥀ [Source Dove](https://t.me/E5EEEF) .\n*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصية الطرد *',
-Reply    = '᥀ [Source Dove](https://t.me/E5EEEF) .\n*┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n᥀︙المستخدم ↫ *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '*᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'خاصية المسح *',
+unLock   = '*᥀︙بواسطة ↫ *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '*᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'خاصية الكتم *',
+lockKid  = '*᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'خاصية التقييد *',
+lockKick = '*᥀︙بواسطة ↫ *'..UserInfousername..'\n*'..TextMsg..'خاصية الطرد *',
+Reply    = '*᥀︙المستخدم ↫ *'..UserInfousername..'\n*'..TextMsg..'*'
  }
 end
 function StatusCanOrNotCan(ChatId,UserId)
