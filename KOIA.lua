@@ -9617,7 +9617,7 @@ local reply_markup = LuaTele.replyMarkup{ type = 'inline',data = { { { text = '�
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n᥀︙عليك الاشتراك في قناة البوت لاستخدام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local T =[[
-᥀︙رابط الحذف في جميع مواقع التواصل .
+᥀︙رابط الحذف في جميع مواقع التواصل
 ]]
 keyboard = {  } 
 keyboard.inline_keyboard = { 
