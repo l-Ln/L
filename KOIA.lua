@@ -6550,7 +6550,7 @@ end
 if text == 'رابط الحذف' or text == 'ححذف' or text == 'اريد بوت الحذف' or text == 'بوت الحذف' then
 photo = "https://t.me/DovePhotoo/6"
 local T =[[
-᥀︙رابط الحذف في جميع مواقع التواصل .
+᥀︙رابط الحذف في جميع مواقع التواصل 
 ]]
 keyboard = {  } 
 keyboard.inline_keyboard = { 
